@@ -1,0 +1,10 @@
+server:
+  port: 8872
+spring:
+  application:
+    name: eureka-consumer
+#Eureka 相关配置
+eureka:
+  client:
+    service-url:
+      defaultZone: http://192.168.31.103:8761/eureka/
