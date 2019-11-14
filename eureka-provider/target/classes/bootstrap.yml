@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      uri: http://192.168.31.103:8888/config/
+      label: master
+      profile: prod
+  application:
+    name: eureka-provider-prod
